@@ -38,6 +38,9 @@ gem 'spring',        group: :development
 
 # Adding a CSS bootstrap
 gem 'bootstrap-sass', '~> 3.1.1'
+
+# Add Devise gem as user authenication
+gem 'devise'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
