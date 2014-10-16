@@ -41,6 +41,8 @@ gem 'bootstrap-sass', '~> 3.1.1'
 
 # Add Devise gem as user authenication
 gem 'devise'
+# Add Figaro gem to handle data security
+gem 'figaro', '1.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
