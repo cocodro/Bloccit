@@ -1,0 +1,1 @@
+Bloccit::Application.config.secret_key_base = 'e0ae751d3b6c6b66f739be4cfe2c48b7351d2bfee48ef15ca58648d8f600745b93278b66755dcf6ecffc3bdaee2eb18c3e7810c7323f8baaa15c2f39f4c54e02'
