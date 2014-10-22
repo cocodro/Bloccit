@@ -20,3 +20,6 @@
 
 # Ignore Secret Token
 /config/initializers/secret_token.rb
+
+#Ignore secrets
+/config/locales/secrets.yml
