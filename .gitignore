@@ -19,9 +19,6 @@
 /config/application.yml
 
 # Ignore Secret Token
-<<<<<<< HEAD
 
 #Ignore secrets
-=======
->>>>>>> Fix-secret-key-base
 /config/locales/secrets.yml
