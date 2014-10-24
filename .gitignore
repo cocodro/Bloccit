@@ -19,4 +19,4 @@
 /config/application.yml
 
 # Ignore Secret Token
-/config/initializers/secret_token.rb
+/config/locales/secrets.yml

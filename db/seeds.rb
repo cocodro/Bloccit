@@ -31,7 +31,7 @@ end
 
 User.first.update_attributes!(
   email: 'combswc@gmail.com',
-  password: 'helloworld',
+  password: 'password',
 )
 
 puts "Seed finished"
