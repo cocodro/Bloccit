@@ -39,7 +39,6 @@ posts = Post.all
   )
 end
 
-<<<<<<< HEAD
 #Create an admin user
 admin = User.new(
   name:     'Admin User',
@@ -62,14 +61,14 @@ moderator.save!
 
 #Create a member
 member = User.new(
-name:    'Member User',
-email:   'member@example.com',
-password:'helloworld'
-=======
+  name:    'Member User',
+  email:   'member@example.com',
+  password:'helloworld'
+)
+
 User.first.update_attributes!(
   email: 'combswc@gmail.com',
   password: 'password',
->>>>>>> Fix-secret-key-base
 )
 member.skip_confirmation!
 member.save!
