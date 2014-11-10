@@ -66,12 +66,17 @@ member = User.new(
   password:'helloworld'
 )
 
-User.first.update_attributes!(
-  email: 'combswc@gmail.com',
-  password: 'password',
-)
 member.skip_confirmation!
 member.save!
+
+me = User.new(
+  name: 'Cole Combs',
+  email: 'combswc@gmail.com',
+  password: 'password'
+)
+
+me.skip_confirmation!
+me.save!
 
 puts "Seed finished"
 puts "#{User.count} users created"
