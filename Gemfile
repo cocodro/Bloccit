@@ -47,6 +47,8 @@ gem 'devise'
 gem 'pundit'
 # Add Figaro gem to handle data security
 gem 'figaro', '1.0'
+# Add Redcarpet gem to add markdown to posts
+gem 'redcarpet'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
