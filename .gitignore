@@ -22,3 +22,6 @@
 
 #Ignore secrets
 /config/locales/secrets.yml
+
+#Ignore CarrierWave directory
+public/uploads
