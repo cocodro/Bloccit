@@ -49,6 +49,13 @@ gem 'pundit'
 gem 'figaro', '1.0'
 # Add Redcarpet gem to add markdown to posts
 gem 'redcarpet'
+# Add carrierwave for image uploading
+gem 'carrierwave'
+# Add minimagick for image sizing
+gem 'mini_magick'
+# Add fog as cloud services library to upload to Amazon S3
+gem 'fog'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
