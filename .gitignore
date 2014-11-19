@@ -21,8 +21,8 @@
 # Ignore Secret Token
 
 #Ignore secrets
-/config/locales/secrets.yml
-/config/initializers/secret_token.rb
+/config/secrets.yml
+# /config/initializers/secret_token.rb
 
 #Ignore CarrierWave directory
 public/uploads

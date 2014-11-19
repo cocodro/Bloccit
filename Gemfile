@@ -55,7 +55,8 @@ gem 'carrierwave'
 gem 'mini_magick'
 # Add fog as cloud services library to upload to Amazon S3
 gem 'fog'
-
+# Add pagination gem
+gem 'will_paginate', '~> 3.0.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
