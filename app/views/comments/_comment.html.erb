@@ -1,0 +1,8 @@
+<div>
+  <%= comment.body %>
+  <% if comment.user %>
+    <small>
+    <%= comment.user.name || comment.user.email %>
+    </small>
+  <% end %>
+</div>
