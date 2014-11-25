@@ -28,7 +28,9 @@
   <div class='col-md-12'>
     <small>
     <%= render partial: 'comments/comment', collection: @comments, as: :comment %>
-    <%= render 'comments/form', topic: @topic, post: @post, comment: @comment %>
+    <% if current_user? %>
+      <%= render 'comments/form', topic: @topic, post: @post, comment: @comment %>
+    <% end %>
     </small>
   </div>
 </div>
