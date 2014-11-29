@@ -15,10 +15,6 @@ group :development do
   gem 'better_errors'
 end
 
-group :test do
-  gem 'rspec-rails', '~> 3.1.0'
-end
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -45,7 +41,7 @@ end
 gem 'spring',        group: :development
 
 # Adding a CSS bootstrap
-gem 'bootstrap-sass', '~> 3.1.1'
+gem 'bootstrap-sass', '~> 3.2.0'
 
 # Add Devise gem as user authenication
 gem 'devise'
@@ -63,6 +59,10 @@ gem 'mini_magick'
 gem 'fog'
 # Add pagination gem
 gem 'will_paginate', '~> 3.0.5'
+# Add Rspec
+group :test do
+  gem 'rspec-rails', '~> 3.1.0'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
