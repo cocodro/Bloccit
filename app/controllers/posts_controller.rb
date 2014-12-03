@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
   def show
     @topic = Topic.find(params[:topic_id])
+    authorize @topic
     @post = Post.find(params[:id])
     @comments = @post.comments
   end
@@ -14,14 +15,14 @@ class PostsController < ApplicationController
   def edit
     @topic = Topic.find(params[:topic_id])
     @post = Post.find(params[:id])
-      authorize @post
+    authorize @post
   end
 
   def create
     @topic = Topic.find(params[:topic_id])
     @post = current_user.posts.build(post_params)
     @post.topic = @topic
-      authorize @post
+    authorize @post
 
     if @post.save
       @post.create_vote
