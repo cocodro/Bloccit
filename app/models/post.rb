@@ -35,4 +35,12 @@ class Post < ActiveRecord::Base
   def create_vote
     user.votes.create(value: 1, post: self)
   end
+
+  def save_with_initial_vote
+    if @post.create_vote
+      @post.save
+    else
+      redirect_to :post
+    end
+  end
 end
