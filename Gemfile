@@ -60,8 +60,9 @@ gem 'fog'
 # Add pagination gem
 gem 'will_paginate', '~> 3.0.5'
 # Add Rspec
-group :test do
+group :development, :test do
   gem 'rspec-rails', '~> 3.1.0'
+  gem 'capybara'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
