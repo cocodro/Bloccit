@@ -44,9 +44,7 @@
   <div class='col-md-12'>
     <small>
     <%= render @comments %>
-    <% if current_user.id? %>
-      <%= render 'comments/form' %>
-    <% end %>
+    <%= render 'comments/form' %>
     </small>
   </div>
 </div>
