@@ -2,6 +2,9 @@ require 'rails_helper'
 
 describe "Visiting profiles" do
 
+  include Warden::Test::Helpers
+  Warden.test_mode!
+
   before do
     @user = create(:user)
     @post = create(:post, user: @user)
